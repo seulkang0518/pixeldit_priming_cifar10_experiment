@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/NVlabs/PixelDiT",
+  "commit": "f7d7c35f71893d81c6e71d2576ea80601a1e8529",
+  "files": {
+    "LICENSE": "2209531ce81c401f5dc9703fd017a2f1fe63e13acec67816d5fea14ef4aa1a70",
+    "NOTICE": "165921ccf4dcfbd7ac5c02289859d034cdb7af178d57530dc5b9aec5e1d72a4b",
+    "pixdit_core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pixdit_core/grounding.py": "c88de9c51a54563dd0554935bd734ab9ecc639a6f5377f9c672d62569553fd69",
+    "pixdit_core/modules.py": "979c32ab7649391db91df1d81a293faa75a2009f706116b0a6e6d1034ede3d79",
+    "pixdit_core/pixeldit2_c2i.py": "c16a8bcc9dd2102c66ae5ece2bf6a5b91f22d37946735133c5345fc47cdde678",
+    "pixdit_core/pixeldit_c2i.py": "f5ae5594ade57f6871016868cef249b8cb36998a7ea82cc1493f00eb5a38f210",
+    "pixdit_core/pixeldit_t2i.py": "5beb546a44ce45bd21e407cc4b34df0d7aa0d230b15e5752a3d187f9a6b5c21d"
+  }
+}

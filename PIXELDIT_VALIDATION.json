@@ -1,0 +1,41 @@
+{
+  "baseline_commit": "12213c3d9889b441e520b6fe375fe001f48b9ce6",
+  "tests": {
+    "total": 46,
+    "passed": 44,
+    "skipped": 2,
+    "description": "CPU regression suite; CUDA-dependent checks skipped"
+  },
+  "full_pixeldit_b_cpu_forward": {
+    "shape": [
+      1,
+      3072
+    ],
+    "finite": true,
+    "parameters": 136189283
+  },
+  "compact_dit_parameters": 21313164,
+  "fid_weights_sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2",
+  "fid_cpu_forward": {
+    "shape": [
+      2,
+      2048,
+      1,
+      1
+    ],
+    "finite": true
+  },
+  "unchanged_math_files": {
+    "loss.py": "d04f50048695097d46b313567ecdbde0f824b8f4661ef5ca82c3fa247f0a017e",
+    "multiscale.py": "531b4c177c2897e7fc17caf6780cc55196b75863e5fc17f79c853d8ca70955df",
+    "target_updates.py": "76b7ff587714f841cb2ad1a37072ed5d9117ef3140a476cad8060ab7a94c8372",
+    "fid.py": "5be9d4a430650f3c723a2a221024ef825e146a661bb3fe64a7f1b71cc6412e82"
+  },
+  "tested_gpu": false,
+  "cluster_job_submitted": false,
+  "exact_hudson_fid65_manifest_available": false,
+  "standalone": true,
+  "default_results": "THIS_EXPERIMENT_FOLDER/results",
+  "cluster_results_example": "/SAN/intelsys/imagenet_mmd_flow/pixeldit_priming_cifar10/results",
+  "original_hudson_checkout_modified": false
+}

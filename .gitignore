@@ -1,0 +1,38 @@
+# Generated experiment outputs and downloaded datasets
+/results/
+/data/
+/figures/
+/notebooks/
+/assets/
+/datasets/
+/cifar-10-*.tar.gz
+
+# Model checkpoints and downloaded FID weights; keep licenses/checksums tracked
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+/.venv/
+/venv/
+/env/
+
+# Local logs and scheduler output
+*.log
+*.o[0-9]*
+*.e[0-9]*
+.DS_Store
+
+# Local credentials and machine-specific settings
+/.aws/
+/.codex/
+.env
+.env.*
+!.env.example
